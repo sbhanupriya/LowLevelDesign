@@ -5,7 +5,7 @@ import designpatterns.observer.StockAvailability.Observable.StockObservable;
 public class MobileAlertObserverImpl implements NotificationAlertObserver{
     String userName;
     StockObservable observable;
-    public MobileAlertObserverImpl( StockObservable observabl, String userName){
+    public MobileAlertObserverImpl( StockObservable observable, String userName){
         this.observable = observable;
         this.userName = userName;
     }
