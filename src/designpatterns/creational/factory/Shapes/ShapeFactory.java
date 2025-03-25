@@ -1,8 +1,8 @@
-package designpatterns.creational.factory;
+package designpatterns.creational.factory.Shapes;
 
-import designpatterns.creational.factory.implementations.Circle;
-import designpatterns.creational.factory.implementations.Rectangle;
-import designpatterns.creational.factory.implementations.Square;
+import designpatterns.creational.factory.Shapes.implementations.Circle;
+import designpatterns.creational.factory.Shapes.implementations.Rectangle;
+import designpatterns.creational.factory.Shapes.implementations.Square;
 
 public class ShapeFactory {
     public Shape getShape(String type){

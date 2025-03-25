@@ -1,4 +1,4 @@
-package designpatterns.creational.factory;
+package designpatterns.creational.factory.Shapes;
 
 public class ShapeSimulator {
     public static void main(String[] args){
