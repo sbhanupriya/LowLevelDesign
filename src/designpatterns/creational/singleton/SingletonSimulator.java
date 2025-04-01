@@ -2,10 +2,15 @@ package designpatterns.creational.singleton;
 
 public class SingletonSimulator {
     public static void main(String[] args){
-        SimpleLogger logger = SimpleLogger.getInstance();
-        System.out.println("SIMPLE LOGGER");
+        EagerInitializationLogger eagerInitializationLogger = EagerInitializationLogger.getInstance();
+        System.out.println("Eager Initialization LOGGER");
+        System.out.println(eagerInitializationLogger);
+        System.out.println(EagerInitializationLogger.getInstance());
+
+        LazyInitializationLogger logger = LazyInitializationLogger.getInstance();
+        System.out.println("Lazy Initialization LOGGER");
         System.out.println(logger);
-        System.out.println(SimpleLogger.getInstance());
+        System.out.println(LazyInitializationLogger.getInstance());
 
         System.out.println("THREAD SAFE LOGGER");
         ThreadSafeLogger threadSafeLogger = ThreadSafeLogger.getInstance();
