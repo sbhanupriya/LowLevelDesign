@@ -1,6 +1,6 @@
-package designpatterns.observer.StockAvailability.Observer;
+package designpatterns.behavioral.observer.StockAvailability.Observer;
 
-import designpatterns.observer.StockAvailability.Observable.StockObservable;
+import designpatterns.behavioral.observer.StockAvailability.Observable.StockObservable;
 
 public class MobileAlertObserverImpl implements NotificationAlertObserver{
     String userName;

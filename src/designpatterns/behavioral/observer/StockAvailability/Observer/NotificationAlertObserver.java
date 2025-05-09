@@ -1,4 +1,4 @@
-package designpatterns.observer.StockAvailability.Observer;
+package designpatterns.behavioral.observer.StockAvailability.Observer;
 
 public interface NotificationAlertObserver {
     public void update();

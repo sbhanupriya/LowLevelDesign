@@ -1,10 +1,10 @@
-package designpatterns.observer.StockAvailability;
+package designpatterns.behavioral.observer.StockAvailability;
 
-import designpatterns.observer.StockAvailability.Observable.IphoneObservableImpl;
-import designpatterns.observer.StockAvailability.Observable.StockObservable;
-import designpatterns.observer.StockAvailability.Observer.EmailAlertObserverImpl;
-import designpatterns.observer.StockAvailability.Observer.MobileAlertObserverImpl;
-import designpatterns.observer.StockAvailability.Observer.NotificationAlertObserver;
+import designpatterns.behavioral.observer.StockAvailability.Observable.IphoneObservableImpl;
+import designpatterns.behavioral.observer.StockAvailability.Observable.StockObservable;
+import designpatterns.behavioral.observer.StockAvailability.Observer.EmailAlertObserverImpl;
+import designpatterns.behavioral.observer.StockAvailability.Observer.MobileAlertObserverImpl;
+import designpatterns.behavioral.observer.StockAvailability.Observer.NotificationAlertObserver;
 
 public class StoreSimulator {
     public static  void main(String[] args){

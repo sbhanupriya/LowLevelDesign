@@ -1,6 +1,6 @@
-package designpatterns.observer.StockAvailability.Observable;
+package designpatterns.behavioral.observer.StockAvailability.Observable;
 
-import designpatterns.observer.StockAvailability.Observer.NotificationAlertObserver;
+import designpatterns.behavioral.observer.StockAvailability.Observer.NotificationAlertObserver;
 
 import java.util.ArrayList;
 import java.util.List;
