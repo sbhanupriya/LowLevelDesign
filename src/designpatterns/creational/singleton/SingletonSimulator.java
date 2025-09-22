@@ -27,5 +27,8 @@ public class SingletonSimulator {
         System.out.println(loggerUsingStaticInnerClass);
         System.out.println(LoggerUsingStaticInnerClass.getInstance());
 
+        System.out.println("Using Enum Classes");
+        System.out.println(SingletonEnum.INSTANCE);
+        SingletonEnum.INSTANCE.call();
     }
 }
