@@ -1,7 +1,7 @@
 package designpatterns.creational.singleton;
 
 public class DoubleCheckedLogger {
-    private static DoubleCheckedLogger instance;
+    private static volatile DoubleCheckedLogger instance;
     private DoubleCheckedLogger(){
     }
     public static DoubleCheckedLogger getInstance(){
