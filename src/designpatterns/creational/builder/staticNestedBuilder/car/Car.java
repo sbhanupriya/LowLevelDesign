@@ -1,4 +1,4 @@
-package designpatterns.creational.builder;
+package designpatterns.creational.builder.staticNestedBuilder.car;
 
 public class Car {
     private String engine;

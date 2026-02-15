@@ -1,16 +1,16 @@
-package designpatterns.creational.builder.StudentExample;
+package designpatterns.creational.builder.gofWay.StudentExample;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MbaStudent extends StudentBuilder{
+public class EngineeringStudent extends StudentBuilder{
 
     @Override
     public StudentBuilder setSubjects() {
         List<String> subjects = new ArrayList<>();
-        subjects.add("Economics");
-        subjects.add("Statistics");
-        subjects.add("Operations Management");
+        subjects.add("OS");
+        subjects.add("Networking");
+        subjects.add("OOPS");
         this.subjects = subjects;
         return this;
     }

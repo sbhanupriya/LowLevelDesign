@@ -1,4 +1,4 @@
-package designpatterns.creational.builder;
+package designpatterns.creational.builder.staticNestedBuilder.car;
 
 public class BuilderSimulator {
     public static void main(String[] args){

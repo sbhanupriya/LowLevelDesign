@@ -1,4 +1,4 @@
-package designpatterns.creational.builder.StudentExample;
+package designpatterns.creational.builder.gofWay.StudentExample;
 
 import java.util.List;
 
